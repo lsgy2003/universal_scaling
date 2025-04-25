@@ -5,7 +5,7 @@
 > Code associated with the paper "Universal scaling in one-dimensional non-reciprocal matter" by Shuoguang Liu, Ryo Hanai, and Peter B. Littlewood ([arXiv:2503.14384](https://arxiv.org/abs/2503.14384)).
 
 
-## 📖 Overview
+##  Overview
 
 This repository contains the code needed to reproduce the main results of the paper:
 
@@ -16,10 +16,10 @@ This repository contains the code needed to reproduce the main results of the pa
 The scripts are written in **MATLAB** and generate both simulation data and figures used in the main text and supplementary information.
 
 To generate data, run `main_computation.m`.
-To compute correlation functions, run `avg_corr_psi.m` (time domain) and `FFT.m` (frequency domain).
+To compute correlation functions, run `avg_corr_psi.m` (time domain) or `FFT.m` (frequency domain).
 
 
-## 📊 Figures Correspondence
+##  Figures Correspondence
 
 ### Main Text Figures
 
@@ -55,7 +55,7 @@ To compute correlation functions, run `avg_corr_psi.m` (time domain) and `FFT.m`
 - **Fig. S13:** `FFT_scaling_width.m`
 
 
-## 📚 Citation
+##  Citation
 
 If you use this code in your work, please cite:
 
@@ -63,16 +63,22 @@ If you use this code in your work, please cite:
 
 
 
-## 👥 Authors & Acknowledgments
+## Authors
 
-- **Shuoguang Liu** – Lead Developer
-- **Ryo Hanai** – Coauthor and Advisor
-- **Peter B. Littlewood** – Principal Investigator
+- **Shuoguang Liu**  
+  [shuoguang@uchicago.edu](mailto:shuoguang@uchicago.edu)  
+  James Franck Institute and Department of Physics, University of Chicago, Chicago IL 60637, USA
 
-Special thanks to our collaborators and the University of Chicago for providing computational resources.
+- **Ryo Hanai**  
+  [hanai.r.7e4b@m.isct.ac.jp](mailto:hanai.r.7e4b@m.isct.ac.jp)  
+  Department of Physics, Institute of Science Tokyo, 2-12-1 Ookayama Meguro-ku, Tokyo, 152-8551, Japan
 
----
+- **Peter B. Littlewood**  
+  [littlewood@uchicago.edu](mailto:littlewood@uchicago.edu)  
+  James Franck Institute and Department of Physics, University of Chicago, Chicago IL 60637, USA  
+  School of Physics and Astronomy, The University of St Andrews, St Andrews, KY16 9AJ, United Kingdom
 
-<div align="center">
-  _"Exploring the universal dynamics beyond equilibrium."_
-</div>
+
+##  Acknowledgments
+
+This research benefited from Physics Frontier Center for Living Systems funded by the National Science Foundation (PHY-2317138). RH was supported by a Grant in Aid for Transformative Research Areas (No. 25H01364), for Scientific Research (B) (General) (No. 25K00935), and for Research Activity Start-up from JSPS in Japan (No. 23K19034) and the National Research Foundation (NRF) funded by the Ministry of Science of Korea (Grant No. RS-2023-00249900). The computation benefited from Research Computing Center at the University of Chicago.
