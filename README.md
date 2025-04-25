@@ -1,6 +1,6 @@
 # Universal Scaling in One-Dimensional Non-Reciprocal Matter
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![License](https://img.shields.io/badge/license-BSD%202--Clause-blue.svg)](LICENSE)
 
 > Code associated with the paper "Universal scaling in one-dimensional non-reciprocal matter" by Shuoguang Liu, Ryo Hanai, and Peter B. Littlewood ([arXiv:2503.14384](https://arxiv.org/abs/2503.14384)).
 
@@ -13,46 +13,10 @@ This repository contains the code needed to reproduce the main results of the pa
 >
 > Shuoguang Liu, Ryo Hanai, and Peter B. Littlewood, 2025.
 
-The scripts are written in **MATLAB 2024** and generate both simulation data and figures used in the main text and supplementary materials.
+The scripts are written in **MATLAB** and generate both simulation data and figures used in the main text and supplementary information.
 
-
-## 🚀 Features
-
-- Full codebase to reproduce figures from the main text and supplementary materials.
-- Simulations of critical fluctuations and dynamical pattern formation.
-- Calculation of correlation functions in both time and frequency domains.
-
-
-## 🛠️ Requirements
-
-- MATLAB 2024 or later
-
-
-## 💡 Usage
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/<your-username>/<your-repo>.git
-   cd <your-repo>
-   ```
-
-2. Open MATLAB and set the path to the cloned folder.
-
-3. To generate data:
-
-   Run:
-   ```matlab
-   main_computation
-   ```
-
-4. To compute correlation functions:
-
-   Use:
-   ```matlab
-   avg_corr_psi
-   FFT
-   ```
+To generate data, run `main_computation.m`.
+To compute correlation functions, run `avg_corr_psi.m` (time domain) and `FFT.m` (frequency domain).
 
 
 ## 📊 Figures Correspondence
@@ -97,23 +61,6 @@ If you use this code in your work, please cite:
 
 > Shuoguang Liu, Ryo Hanai, Peter B. Littlewood, "Universal scaling in one-dimensional non-reciprocal matter," 2025, [arXiv:2503.14384](https://arxiv.org/abs/2503.14384).
 
-BibTeX:
-
-```bibtex
-@article{liu2025universal,
-  title={Universal scaling in one-dimensional non-reciprocal matter},
-  author={Liu, Shuoguang and Hanai, Ryo and Littlewood, Peter B.},
-  year={2025},
-  eprint={2503.14384},
-  archivePrefix={arXiv},
-  primaryClass={cond-mat.stat-mech}
-}
-```
-
-
-## ⚖️ License
-
-This project is licensed under the [MIT License](LICENSE).
 
 
 ## 👥 Authors & Acknowledgments
