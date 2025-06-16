@@ -183,7 +183,7 @@ m=load('/Users/Phantom/Documents/MATLAB/Flocking/Density/New_data/Xover/sigma=0.
 width1 = m.width_s;
 std1=m.std_width_s;
 
-m=load('/Users/Phantom/Documents/MATLAB/Flocking/Density/New_data/Xover/sigma=0/jp=0.002/Size/ws_jp=0.002.mat');
+m=load('/Users/Phantom/Documents/MATLAB/Flocking/Density/New_data/Xover/sigma=0/jp=0.011/Size/ws_jp=0.011.mat');
 width0 = m.width_s;
 std0=m.std_width_s;
 
@@ -305,7 +305,7 @@ hLeg(3) = plot(nan, nan, 'diamond', 'LineWidth',2, 'Color', [85, 107, 47]/255);
 % Create the legend
     lgd = legend(hLeg, {
     '$\sigma=0.1,\frac{D_A}{D_B}=1,j_+=0.040$', ...
-    '$\sigma=0, \frac{D_A}{D_B}=1,j_+=0.002$', ...
+    '$\sigma=0, \frac{D_A}{D_B}=1,j_+=0.011$', ...
     '$\sigma=0.5,\frac{D_A}{D_B}=100,j_+=0.011$', ...
     }); %\langle{\rm Var}(\Delta \theta_{AB}(L)\rangle$' '$\sigma=0.1,\frac{D_A}{D_B}=1,j_+=0.040$', ...
 
