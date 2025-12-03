@@ -63,7 +63,7 @@ To compute correlation functions, run `avg_corr_psi.m` (time domain) or `FFT.m` 
 
 If you use this code in your work, please cite:
 
-> Shuoguang Liu, Ryo Hanai, Peter B. Littlewood, "Universal scaling in one-dimensional non-reciprocal matter," 2025, [arXiv:2503.14384](https://arxiv.org/abs/2503.14384).
+> Shuoguang Liu, Peter B. Littlewood, Ryo Hanai, "Universal scaling in one-dimensional non-reciprocal matter," 2025, [arXiv:2503.14384](https://arxiv.org/abs/2503.14384).
 
 
 
