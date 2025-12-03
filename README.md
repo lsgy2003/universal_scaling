@@ -5,7 +5,7 @@
 > Code associated with the paper "Universal scaling in one-dimensional non-reciprocal matter" by Shuoguang Liu, Ryo Hanai, and Peter B. Littlewood ([arXiv:2503.14384](https://arxiv.org/abs/2503.14384)).
 
 
-##  Overview
+## 📖 Overview
 
 This repository contains the code needed to reproduce the main results of the paper:
 
@@ -19,7 +19,8 @@ To generate data, run `main_computation.m`.
 To compute correlation functions, run `avg_corr_psi.m` (time domain) or `FFT.m` (frequency domain).
 
 
-##  Figures Correspondence
+
+## 📊 Figures Correspondence
 
 ### Main Text Figures
 
@@ -27,38 +28,38 @@ To compute correlation functions, run `avg_corr_psi.m` (time domain) or `FFT.m` 
   - (a) `main_computation.m` (for insets)
   - (b-c) no code associated
 - **Fig. 2:**
-  - (a) `xover_jp.m`
+  - (a) `xover_chi_all.m`
   - (b) `collapse_CEP.m` and `collapse_EW.m`
 - **Fig. 3:**
   - (a) `alpha_CEP.m`
   - (b) `fit_peak.m` and `z_CEP.m`
   - (c-d) same as Fig. 2(b)
 - **Fig. 4:**
-  - (a) `log_scaling.m` and `power_scaling.m`
-  - (b) `xover_noise.m`
-  - (c) `beta_pattern.m` and `phase_diagram.m`
-- **Fig. 5:** `phaseA_evolve.m`
+  - (a) `phaseA_evolve.m`
+  - (b) `log_scaling.m` and `power_scaling.m`
+  - (c) `xover_freq_all.m`
 
 
 ### Supplementary Information Figures
 
 - **Fig. S1:** `collapse_CEP.m`
 - **Fig. S2:** `waiting_time_CEP.m` and `waiting_time_EW.m`
-- **Fig. S3:** `collapse_width_CEP.m`
-- **Fig. S4:** `collapse_width_EW.m`
-- **Fig. S5:** `collapse_width_CEP.m`
-- **Fig. S6:** `freq_noise.m` and `freq_size.m`
-- **Fig. S7:** `amp_pattern.m`
-- **Fig. S8:** `psi_beta_jp.m` and `beta_pattern.m`
-- **Fig. S9:** `pattern_formation.m` and `diffusion_freq.m`
-- **Fig. S10:** `phase_dif_evolve.m`
-- **Fig. S11:** `main_computation.m`
-- **Fig. S12:** `H_CEP.m`
-- **Fig. S13:** `compare_correlator_CEP.m`, `compare_correlator_EW.m`, and `compare_correlator_pattern.m`
-- **Fig. S14:** `FFT_scaling_width.m`
+- **Fig. S3:** `amp_pattern.m`
+- **Fig. S4:** `collapse_CEP.m`
+- **Fig. S5, S6:** `collapse_width_CEP.m`
+- **Fig. S7:** `collapse_width_EW.m`
+- **Fig. S8:** `amp_pattern.m`
+- **Fig. S9:** `freq_size.m` and `freq_noise.m`
+- **Fig. S10:** `main_computation.m` (for a); no code for (c, d)
+- **Fig. S11:** `log_scaling.m`
+- **Fig. S12:** `CEP_approx.m` and `EW_approx.m`
+- **Fig. S13:** `compare_correlator_EW.m`
+- **Fig. S14:** `compare_correlator_CEP.m` and `ensemble_CEP.m`
+- **Fig. S15:** `compare_correlator_pattern.m` and `ensemble_pattern.m`
+- **Fig. S16:** `FFT_scaling_width.m`
 
 
-##  Citation
+##  📚 Citation
 
 If you use this code in your work, please cite:
 
@@ -66,20 +67,20 @@ If you use this code in your work, please cite:
 
 
 
-## Authors
+## 👥 Authors
 
 - **Shuoguang Liu**  
   [shuoguang@uchicago.edu](mailto:shuoguang@uchicago.edu)  
   James Franck Institute and Department of Physics, University of Chicago, Chicago IL 60637, USA
 
-- **Ryo Hanai**  
-  [hanai.r.7e4b@m.isct.ac.jp](mailto:hanai.r.7e4b@m.isct.ac.jp)  
-  Department of Physics, Institute of Science Tokyo, 2-12-1 Ookayama Meguro-ku, Tokyo, 152-8551, Japan
-
 - **Peter B. Littlewood**  
   [littlewood@uchicago.edu](mailto:littlewood@uchicago.edu)  
   James Franck Institute and Department of Physics, University of Chicago, Chicago IL 60637, USA  
   School of Physics and Astronomy, The University of St Andrews, St Andrews, KY16 9AJ, United Kingdom
+  
+- **Ryo Hanai**  
+  [hanai.r.7e4b@m.isct.ac.jp](mailto:hanai.r.7e4b@m.isct.ac.jp)  
+  Department of Physics, Institute of Science Tokyo, 2-12-1 Ookayama Meguro-ku, Tokyo, 152-8551, Japan
 
 
 ##  Acknowledgments
