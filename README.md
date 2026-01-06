@@ -11,9 +11,9 @@ This repository contains the code needed to reproduce the main results of the pa
 
 > **Universal scaling in one-dimensional non-reciprocal matter**
 >
-> Shuoguang Liu, Ryo Hanai, and Peter B. Littlewood, 2025.
+> Shuoguang Liu, Peter B. Littlewood and Ryo Hanai, 2025.
 
-The scripts are written in **MATLAB** and generate both simulation data and figures used in the main text and supplementary information.
+The scripts are written in **MATLAB 2023a** and generate both simulation data and figures used in the main text and supplementary information.
 
 To generate data, run `main_computation.m`.
 To compute correlation functions, run `avg_corr_psi.m` (time domain) or `FFT.m` (frequency domain).
