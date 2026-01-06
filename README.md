@@ -13,12 +13,17 @@ This repository contains the code needed to reproduce the main results of the pa
 >
 > Shuoguang Liu, Peter B. Littlewood and Ryo Hanai, 2025.
 
-The scripts are written in **MATLAB 2023a** and generate both simulation data and figures used in the main text and supplementary information.
+The scripts are written in **MATLAB** and generate both simulation data and figures used in the main text and supplementary information.
 
 To generate data, run `main_computation.m`.
 To compute correlation functions, run `avg_corr_psi.m` (time domain) or `FFT.m` (frequency domain).
 
+## ⚙️ System requirements
 
+- MATLAB R2022a or later
+- Tested on MATLAB R2022a, R2023b, R2024b
+- Required toolboxes:
+  - Optimization Toolbox
 
 ## 📊 Figures Correspondence
 
