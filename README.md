@@ -109,17 +109,6 @@ If you use this code in your work, please cite:
 > **“Universal scaling in one-dimensional non-reciprocal matter,”**  
 > [arXiv:2503.14384](https://arxiv.org/abs/2503.14384).
 
-```bibtex
-@article{liu2025universal,
-  title         = {Universal scaling in one-dimensional non-reciprocal matter},
-  author        = {Liu, Shuoguang and Hanai, Ryo and Littlewood, Peter B.},
-  year          = {2025},
-  eprint        = {2503.14384},
-  archivePrefix = {arXiv},
-  primaryClass  = {cond-mat.stat-mech}
-}
-```
-
 
 ## ⚖️ License
 
@@ -132,14 +121,14 @@ This project is licensed under the [BSD 2-Clause License](LICENSE).
   [shuoguang@uchicago.edu](mailto:shuoguang@uchicago.edu)  
   James Franck Institute and Department of Physics, University of Chicago, Chicago IL 60637, USA
 
-- **Ryo Hanai**  
-  [hanai.r.7e4b@m.isct.ac.jp](mailto:hanai.r.7e4b@m.isct.ac.jp)  
-  Department of Physics, Institute of Science Tokyo, 2-12-1 Ookayama Meguro-ku, Tokyo, 152-8551, Japan
-
 - **Peter B. Littlewood**  
   [littlewood@uchicago.edu](mailto:littlewood@uchicago.edu)  
   James Franck Institute and Department of Physics, University of Chicago, Chicago IL 60637, USA  
   School of Physics and Astronomy, The University of St Andrews, St Andrews, KY16 9AJ, United Kingdom
+
+- **Ryo Hanai**  
+  [hanai.r.7e4b@m.isct.ac.jp](mailto:hanai.r.7e4b@m.isct.ac.jp)  
+  Department of Physics, Institute of Science Tokyo, 2-12-1 Ookayama Meguro-ku, Tokyo, 152-8551, Japan
 
 
 ## 🙏 Acknowledgments
